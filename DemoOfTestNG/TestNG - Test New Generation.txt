@@ -1,0 +1,40 @@
+TestNG - Test New Generation
+
+Java Based Unit testing Tool
+
+ Merits
+=======
+1. Test cases and test suites
+2. Grouping of test cases
+3. Prioritize
+4. Parameterization
+6. Parallel testing
+7. Reports
+
+TestNG Configuration
+---------------------
+1. Install TestNG in Eclipse
+2. Add TestNG library to build path/add TestNG dependency in pom.xml
+
+@Test
+
+1.TestNG execute test methods based on alphabetical orders
+2.@Test(priority=num) controls the order of execution
+3.Once you provide priority to the test methods then order of methods is not considered
+4.Priority can be random numbers(no need to have consecutive numbers)
+5.If you don't provide priority then default value is zero (0)
+6.If the priorities are same then again execute methods in alphabetical orders
+7.Negative values are allows in priority
+8.TestNG execute test methods only if they are having @Test annotation
+
+Test XML File
+-------------
+1. Generate Automatically
+2.Manually
+ 
+Test Suite-> test cases-> test steps
+xml file->classes->test Methods
+
+Things achieved through xml
+1. Executed group of test cases as a one suite
+2.We can generate testing reports(default)
