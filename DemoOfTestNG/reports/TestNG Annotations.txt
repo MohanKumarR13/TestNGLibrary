@@ -1,0 +1,32 @@
+TestNG Annotations
+==================
+@Test
+@BeforeMethod
+@AfterMethod
+@BeforeClass
+@AfterClass
+@AfterTest
+@BeforeTest
+@BeforeSuite
+@AfterSuite
+
+TC1
+===
+Login =>@BeforeMethod
+Search => @Test
+Logout => @AfterMethod
+Login
+Advance Search => @Test
+Logout
+
+TC2
+===
+Login =>@BeforeClass
+Search => @Test
+Advance Search => @Test
+Logout => @AfterClass
+
+
+Hard vs Soft assertions
+=======================
+Soft assertion and hard assertion are two types of assertions in TestNG123. A hard assertion throws an exception immediately when an assert statement fails, and stops the test execution123. A soft assertion does not throw an exception immediately when an assert statement fails, and continues the test execution123. Soft assertions are useful when you want to verify multiple conditions in a test case.

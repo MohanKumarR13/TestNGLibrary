@@ -1,0 +1,16 @@
+Parameterization
+=================
+1. @DataProvider -- data driven testing
+2. Using xml file -- parallel testing
+
+Parallel Testing using xml file
+--------------------------------
+1. Create test case
+2. Create xml file then run test case through xml
+3. Passed browser name, URL as parameters from xml file to setup() method
+4. Execute test case on chrome, Firefox and edge (serial execution)
+5.Execute test case on chrome, Firefox and edge (parallel execution)
+
+
+
+

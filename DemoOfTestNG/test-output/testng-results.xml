@@ -1,46 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-06T20:59:23 IST" name="Groups" finished-at="2024-07-06T20:59:23 IST" duration-ms="70">
+  <suite started-at="2024-07-14T01:44:17 IST" name="Suite" finished-at="2024-07-14T01:44:30 IST" duration-ms="12341">
     <groups>
-      <group name="regression">
-        <method signature="PaymentTest.paymentInRupees()[pri:1, instance:testng.dependencymethods.PaymentTest@1a6d8329]" name="paymentInRupees" class="testng.dependencymethods.PaymentTest"/>
-        <method signature="PaymentTest.paymentInDollers()[pri:2, instance:testng.dependencymethods.PaymentTest@1a6d8329]" name="paymentInDollers" class="testng.dependencymethods.PaymentTest"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="LoginTests.loginByEmail()[pri:1, instance:testng.dependencymethods.LoginTests@5677323c]" name="loginByEmail" class="testng.dependencymethods.LoginTests"/>
-        <method signature="PaymentTest.paymentInRupees()[pri:1, instance:testng.dependencymethods.PaymentTest@1a6d8329]" name="paymentInRupees" class="testng.dependencymethods.PaymentTest"/>
-        <method signature="LoginTests.loginByFaceBook()[pri:2, instance:testng.dependencymethods.LoginTests@5677323c]" name="loginByFaceBook" class="testng.dependencymethods.LoginTests"/>
-        <method signature="PaymentTest.paymentInDollers()[pri:2, instance:testng.dependencymethods.PaymentTest@1a6d8329]" name="paymentInDollers" class="testng.dependencymethods.PaymentTest"/>
-        <method signature="LoginTests.loginByTwitter()[pri:3, instance:testng.dependencymethods.LoginTests@5677323c]" name="loginByTwitter" class="testng.dependencymethods.LoginTests"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-07-06T20:59:23 IST" name="Test" finished-at="2024-07-06T20:59:23 IST" duration-ms="70">
-      <class name="testng.dependencymethods.LoginTests">
-        <test-method signature="loginByEmail()[pri:1, instance:testng.dependencymethods.LoginTests@5677323c]" started-at="2024-07-06T20:59:23 IST" name="loginByEmail" finished-at="2024-07-06T20:59:23 IST" duration-ms="8" status="PASS">
+    <test started-at="2024-07-14T01:44:17 IST" name="Test" finished-at="2024-07-14T01:44:30 IST" duration-ms="12341">
+      <class name="testng.firstcase.OrangeHRMTest">
+        <test-method signature="openBrowser()[pri:1, instance:testng.firstcase.OrangeHRMTest@38cee291]" started-at="2024-07-14T01:44:18 IST" name="openBrowser" finished-at="2024-07-14T01:44:23 IST" duration-ms="5690" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginByEmail -->
-        <test-method signature="loginByFaceBook()[pri:2, instance:testng.dependencymethods.LoginTests@5677323c]" started-at="2024-07-06T20:59:23 IST" name="loginByFaceBook" finished-at="2024-07-06T20:59:23 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testLogo()[pri:2, instance:testng.firstcase.OrangeHRMTest@38cee291]" started-at="2024-07-14T01:44:23 IST" name="testLogo" finished-at="2024-07-14T01:44:26 IST" duration-ms="3067" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginByFaceBook -->
-        <test-method signature="loginByTwitter()[pri:3, instance:testng.dependencymethods.LoginTests@5677323c]" started-at="2024-07-06T20:59:23 IST" name="loginByTwitter" finished-at="2024-07-06T20:59:23 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testLogo -->
+        <test-method signature="login()[pri:3, instance:testng.firstcase.OrangeHRMTest@38cee291]" started-at="2024-07-14T01:44:26 IST" name="login" finished-at="2024-07-14T01:44:30 IST" duration-ms="3222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginByTwitter -->
-      </class> <!-- testng.dependencymethods.LoginTests -->
-      <class name="testng.dependencymethods.PaymentTest">
-        <test-method signature="paymentInRupees()[pri:1, instance:testng.dependencymethods.PaymentTest@1a6d8329]" started-at="2024-07-06T20:59:23 IST" name="paymentInRupees" finished-at="2024-07-06T20:59:23 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="closeBrowser()[pri:4, instance:testng.firstcase.OrangeHRMTest@38cee291]" started-at="2024-07-14T01:44:30 IST" name="closeBrowser" finished-at="2024-07-14T01:44:30 IST" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentInRupees -->
-        <test-method signature="paymentInDollers()[pri:2, instance:testng.dependencymethods.PaymentTest@1a6d8329]" started-at="2024-07-06T20:59:23 IST" name="paymentInDollers" finished-at="2024-07-06T20:59:23 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentInDollers -->
-      </class> <!-- testng.dependencymethods.PaymentTest -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testng.firstcase.OrangeHRMTest -->
     </test> <!-- Test -->
-  </suite> <!-- Groups -->
+  </suite> <!-- Suite -->
 </testng-results>
