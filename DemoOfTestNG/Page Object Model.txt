@@ -1,0 +1,11 @@
+Page Object Model
+====================
+Test Case
+----------
+Locators
+Test Methods---Code---Validations + Actions
+
+Two Approaches to create page object classes
+=> Without using PageFactory
+=> Using PageFactory
+
